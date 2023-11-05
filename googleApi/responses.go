@@ -16,6 +16,7 @@ type PlaceAnswer struct {
 }
 
 type NearbyPlacesAnswer struct {
-	Status string  `json:"status"`
-	Result []Place `json:"results"`
+	Status        string  `json:"status"`
+	NextPageToken string  `json:"next_page_token,omitempty"`
+	Result        []Place `json:"results"`
 }
