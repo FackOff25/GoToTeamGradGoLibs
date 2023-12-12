@@ -21,7 +21,8 @@ func GetCategoriesMap() map[string]string {
 		"stadium":        "Стадион",
 		"synagogue":      "Синагога",
 		"hindu_temple":   "Храм Хинду",
-		"zoo":            "зоопарк",
+		"zoo":            "Зоопарк",
+		"tourist_attraction": "Достопримечательность",
 	}
 }
 
